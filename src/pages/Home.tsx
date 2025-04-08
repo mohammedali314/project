@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { ChevronRight, Star, Shield, Clock } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import HeroImage from "../assets/Hero4.jpg"
+import HeroImage from "../assets/home03.jpg"
 
 const Home = () => {
   const features = [

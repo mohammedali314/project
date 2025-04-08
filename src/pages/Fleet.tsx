@@ -4,24 +4,24 @@ import { Users, Briefcase, Wine } from 'lucide-react';
 const Fleet = () => {
   const vehicles = [
     {
-      name: "Mercedes-Benz S-Class",
-      image: "https://images.pexels.com/photos/18369292/pexels-photo-18369292/free-photo-of-a-mercedes-benz-s-class.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      name: "Mercedes E-Class",
+      image: "https://samexecutive.co.uk/images/fleet/e-class.jpg",
       description: "Ultimate luxury sedan with premium leather interior and advanced comfort features.",
       features: ["Up to 3 passengers", "2 large suitcases", "Premium leather interior"],
       icon: <Users className="w-5 h-5" />,
       ideal: "Perfect for business travel and airport transfers"
     },
     {
-      name: "BMW 7 Series",
-      image: "https://images.unsplash.com/photo-1655757324190-4e102d4fcdff?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Qk1XJTIwNyUyMFNlcmllcyUyMGNhcnxlbnwwfHwwfHx8MA%3D%3D",
+      name: "Mercedes S-Class",
+      image: "https://samexecutive.co.uk/images/fleet/s-class.jpg",
       description: "Executive sedan combining luxury with cutting-edge technology.",
       features: ["Up to 3 passengers", "2 large suitcases", "Advanced entertainment system"],
       icon: <Briefcase className="w-5 h-5" />,
       ideal: "Ideal for corporate clients and executives"
     },
     {
-      name: "Toyota Land Cruiser",
-      image: "https://images.pexels.com/photos/18029607/pexels-photo-18029607/free-photo-of-parked-toyota-land-cruiser.jpeg?auto=compress&cs=tinysrgb&w=800",
+      name: "RANGE ROVER HYBIRID ELECTRIC",
+      image: "https://samexecutive.co.uk/images/fleet/rangerover.jpg",
       description: "The pinnacle of luxury, offering unparalleled comfort and prestige.",
       features: ["Up to 4 passengers", "3 large suitcases", "Champagne cooler"],
       icon: <Wine className="w-5 h-5" />,
@@ -49,8 +49,8 @@ const Fleet = () => {
                 <img
                   src={vehicle.image}
                   alt={vehicle.name}
-                  className="w-full h-full object-cover"
-                />
+                  className="w-full h-48 object-contain"
+                  style={{ backgroundColor: "#f3f4f6" }} />
               </div>
               <div className="p-6">
                 <h3 className="text-2xl font-semibold text-gray-900 mb-2">

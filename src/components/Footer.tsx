@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, Facebook, Instagram, Twitter } from 'lucide-react';
 
@@ -9,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Farooq Chauffeurs</h3>
+            <h3 className="text-xl font-bold mb-4">Anaya's Car</h3>
             <p className="text-gray-400">
               Luxury transportation services for discerning clients. Available 24/7
               for your comfort and convenience.
@@ -58,9 +57,13 @@ const Footer = () => {
               <li className="flex items-center">
                 <MapPin className="h-5 w-5 mr-2" />
                 <span className="text-gray-400">
-                  123 Luxury Drive, Suite 100
+                  ANAYA NF LTD 
                   <br />
-                  Beverly Hills, CA 90210
+                 Center 42, 42 Waiting Street,
+                 <br />
+                 Radlett,Hertfordshire,
+                 <br />
+                 WD7 7NN.
                 </span>
               </li>
             </ul>
@@ -94,7 +97,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
           <p className="text-gray-400">
-            © {new Date().getFullYear()} Farooq Chauffeurs. All rights reserved.
+            © {new Date().getFullYear()} Anaya's Car. All rights reserved.
           </p>
         </div>
       </div>

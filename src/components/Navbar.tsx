@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import{ useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X, Car } from 'lucide-react';
 
@@ -22,7 +22,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
               <Car className="h-8 w-8" />
-              <span className="text-xl font-bold">Farooq Chauffeurs</span>
+              <span className="text-xl font-bold">Anaya's Car</span>
             </Link>
           </div>
 

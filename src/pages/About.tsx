@@ -17,7 +17,7 @@ function About() {
         </div>
         <div className="rounded-lg overflow-hidden shadow-lg">
           <img
-            src="https://images.pexels.com/photos/1386649/pexels-photo-1386649.jpeg?auto=compress&cs=tinysrgb&w=800"
+            src="https://samexecutive.co.uk/images/mercedes-v-class/mercedes-v-class-2.jpg"
             alt="Luxury vehicle fleet"
             className="w-full h-full object-cover"
           />
