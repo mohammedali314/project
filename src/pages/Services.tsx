@@ -1,5 +1,5 @@
 
-import { Car, Clock, Shield } from 'lucide-react';
+import { Car, CarFront, CarTaxiFront, Clock, Home, HomeIcon, Plane, Shield, Warehouse } from 'lucide-react';
 
 const Services = () => {
   const services = [
@@ -17,6 +17,19 @@ const Services = () => {
       icon: <Shield className="w-12 h-12 text-blue-600" />,
       title: "Professional Drivers",
       description: "Experienced, licensed, and professionally trained chauffeurs ensuring your safety and comfort."
+    },
+    {
+      icon: <Plane className="w-12 h-12 text-blue-600" />,
+      title: "Airport to Airport",
+      description: "Airport to Airport – Seamless transfers, zero delays.Your ride is ready before you land."
+    }, {
+      icon: <CarTaxiFront className="w-12 h-12 text-blue-600" />,
+      title: "Airport To Long Distance",
+      description: "Airport to Long Distance – Ride far, ride smooth. From touchdown to your final stop, our fleet delivers comfort, reliability, and endless miles of hassle-free travel"
+    }, {
+      icon: <Home className="w-12 h-12 text-blue-600" />,
+      title: "Town to Airport",
+      description: "Town to Airport – Smooth rides, zero stress. Get from your doorstep to the terminal in comfort and style, with reliable pickups and perfect timing every time."
     }
   ];
 

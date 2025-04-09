@@ -26,6 +26,14 @@ const Fleet = () => {
       features: ["Up to 4 passengers", "3 large suitcases", "Champagne cooler"],
       icon: <Wine className="w-5 h-5" />,
       ideal: "Perfect for special occasions and VIP transport"
+    },
+     {
+      name: "Mercedes V-Class",
+      image: "https://samexecutive.co.uk/images/fleet/v-class.jpg",
+      description: "Free onboard Wifi. Work, surf & check emails while on the move. Room for 7 adults as well as 6 large suitcases and 4 carry-ons",
+      features: ["Up to 5 passengers", "4 large suitcases", "Champagne cooler"],
+      icon: <Wine className="w-5 h-5" />,
+      ideal: "Perfect for special occasions and VIP transport"
     }
   ];
 
@@ -39,7 +47,7 @@ const Fleet = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {vehicles.map((vehicle, index) => (
             <div 
               key={index} 
