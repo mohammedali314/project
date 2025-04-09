@@ -7,14 +7,14 @@ const Testimonials = () => {
       name: "James Wilson",
       role: "Business Executive",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200",
-      content: "The service provided by Farooq Chauffeurs was exceptional. The driver was professional, punctual, and the vehicle was immaculate. Perfect for business travel.",
+      content: "The service provided by Anaya's Car was exceptional. The driver was professional, punctual, and the vehicle was immaculate. Perfect for business travel.",
       rating: 5
     },
     {
       name: "Sarah Thompson",
       role: "Event Planner",
       image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200",
-      content: "I regularly use Farooq Chauffeurs for my high-profile clients. Their attention to detail and reliability is unmatched. Highly recommended!",
+      content: "I regularly use Anaya's Car for my high-profile clients. Their attention to detail and reliability is unmatched. Highly recommended!",
       rating: 5
     },
     {
@@ -28,21 +28,21 @@ const Testimonials = () => {
       name: "Emily Rodriguez",
       role: "Wedding Coordinator",
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200",
-      content: "We use Farooq Chauffeurs for all our wedding transportation needs. Their luxury fleet and professional service never disappoints our clients.",
+      content: "We use Anaya's Car for all our wedding transportation needs. Their luxury fleet and professional service never disappoints our clients.",
       rating: 5
     },
     {
       name: "David Parker",
       role: "Hotel Concierge",
       image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200",
-      content: "As a hotel concierge, I only recommend the best to our guests. Farooq Chauffeurs consistently delivers exceptional service.",
+      content: "As a hotel concierge, I only recommend the best to our guests. Anaya's Car consistently delivers exceptional service.",
       rating: 5
     },
     {
       name: "Lisa Anderson",
       role: "Frequent Traveler",
       image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200",
-      content: "I travel frequently for work, and Farooq Chauffeurs is my go-to service. Always on time, professional, and comfortable.",
+      content: "I travel frequently for work, and Anaya's Car is my go-to service. Always on time, professional, and comfortable.",
       rating: 5
     }
   ];
